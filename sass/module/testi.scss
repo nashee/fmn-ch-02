@@ -1,0 +1,48 @@
+.testi {
+    color: rgb(31, 11, 11);
+    text-align: center;
+    margin: 160px auto;
+    width: 1110px;
+    height: 457px;
+   
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+    &__content {
+        display: flex;
+        margin: 0 auto;
+        height: 100%;
+        
+    }
+    &__detail {
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+        align-items: center;
+        margin-right: 20px;
+        justify-content: space-between;
+       
+         
+    }
+    &__images {
+        width: 72px;
+        height: 72px;
+        border-radius: 50%;
+        
+    }
+    span {
+        display: block;
+        font-size: small;
+        font-weight: 200;
+        margin-top: 15px;
+    }
+    &__title {
+        text-transform: uppercase;
+        margin-bottom: 30px;
+    }
+    p {
+        line-height: 1.8;
+    }
+   
+}

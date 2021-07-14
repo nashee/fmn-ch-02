@@ -8,7 +8,9 @@
 @import "layout/container.scss";
 
 /* === module === */
-
+@import  "module/nav.scss";
+@import  "module/images.scss";
+@import  "module/testi.scss";
 
 /* === state=== */
 @import "state/state.scss";
